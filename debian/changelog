@@ -1,0 +1,5 @@
+minijail (0.0.0.2016.10.04.184956+713f6fbed8fd14efce499d5d609d24487b2518a4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Arthur Gautier <baloo@gandi.net>  Wed, 05 Oct 2016 19:30:33 +0000

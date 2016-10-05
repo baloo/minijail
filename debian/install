@@ -1,0 +1,3 @@
+minijail0             usr/bin
+libminijail.so        usr/lib
+libminijailpreload.so usr/lib

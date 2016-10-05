@@ -1,0 +1,10 @@
+diff --git a/minijail0.5 b/minijail0.5
+index b9036b913f059..187c450c2d8d2 100644
+--- a/minijail0.5
++++ b/minijail0.5
+@@ -1,4 +1,4 @@
+-.TH MINIJAIL0 "1" "July 2011" "Chromium OS" "User Commands"
++.TH MINIJAIL0 "5" "July 2011" "Chromium OS" "User Commands"
+ .SH NAME
+ minijail0 \- sandbox a process
+ .SH DESCRIPTION

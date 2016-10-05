@@ -1,0 +1,31 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+#export DH_VERBOSE = 1
+
+export CC=clang
+export LIBDIR=usr/lib
+# uncompatible with clang
+export DEB_BUILD_MAINT_OPTIONS=reproducible=-fixdebugpath
+
+%:
+	dh $@
+
+.PHONY:
+publish:
+	rm -rf .git/publish
+	git branch -D publish || true
+	git worktree add .git/publish
+	cd .git/publish; git branch -D gh-pages || true
+	cd .git/publish; git checkout --orphan gh-pages
+	cd .git/publish; git rm -rf .; git clean -x -d -f
+	mkdir -p .git/publish/debian/${DEB_PATH}
+	cp ../minijail_${PACKAGE_VER}_*.deb .git/publish/debian/
+	cd .git/publish/debian; dpkg-scanpackages . > ${DEB_PATH}/Packages
+	cd .git/publish; echo '<html><body><pre>deb http://baloo.github.io/minijail/debian/ unstable main</pre></body></html>' > index.html
+	gpg --sign  -ba --digest-algo SHA256 -o .git/publish/debian/${DEB_PATH}/Packages.gpg .git/publish/debian/${DEB_PATH}/Packages
+	cd .git/publish/debian/dists/unstable/; apt-ftparchive --md5 --sha256 release . > Release
+	cd .git/publish/debian/dists/unstable/; gpg --armor --digest-algo SHA256 --output Release.gpg --detach-sign Release
+	cd .git/publish/debian/dists/unstable/; gpg --clearsign --digest-algo SHA256 --output InRelease Release
+	cd .git/publish; git add .; git commit -m "new version"
+	git push baloo +gh-pages
