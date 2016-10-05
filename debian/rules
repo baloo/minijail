@@ -2,6 +2,8 @@
 # See debhelper(7) (uncomment to enable)
 # output every command that modifies files on the build system.
 #export DH_VERBOSE = 1
+PACKAGE_VER:=$(shell dpkg-parsechangelog | sed -n -e 's/^Version: //p')
+DEB_PATH=dists/unstable/main/binary-amd64
 
 export CC=clang
 export LIBDIR=usr/lib
