@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Mon, 26 Feb 2018 15:11:32 +0000
+MD5Sum:
+ 3f8555748d50d3cf92c4829f95a7f0e0               38 Release
+ 965c4cf442aadde47c333307cd871b6d             1561 main/binary-amd64/Packages
+ 4e94f2713c33f7ace8caa4ca611ad4a2              833 main/binary-amd64/Packages.gpg
+SHA1:
+ 4bd468ea2f7b8ec578cbe140089320771c90c46a               38 Release
+ 673ebb11c03a4fbd7139c034379eaf76f380bebd             1561 main/binary-amd64/Packages
+ 538b330594eee377aba63f007a674968485c48be              833 main/binary-amd64/Packages.gpg
+SHA256:
+ f364f57e6aa7e776a1e78616ab8ecdfa383d3f2e599941398443dcd84d4ae2fd               38 Release
+ f377791e140f754f67ff842e0bf2c3f3465f0fe42fdb081e0cf15d15b16053f5             1561 main/binary-amd64/Packages
+ 0c00f6c7cf581e607871da8599203c7ecb7171d2417cff636dc9329dde450ce8              833 main/binary-amd64/Packages.gpg
+SHA512:
+ ce6059866853d186014b32079d03396148e7cabd565554f689a1c7902be5d68a5281c1de3e98ed1807bacf796cd93e8fb1ef83c90f6c5615f57d13289a3e38d1               38 Release
+ 6b3220b0d7acea2790cb7685b1201c6c73e9f015f270a753ac6063847cd6ae4f520ea847286ea6370b046684e4acbc9cfc3b3c9961f80c8c37dbe470d605a4b9             1561 main/binary-amd64/Packages
+ 89bcf22d522ea0299c10f08127639d162375effb03d5e54586038005579de84dce39f2c1dd6aabcc04104d9511e7c1bae8e08950e5c6443f822af88978808267              833 main/binary-amd64/Packages.gpg
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEqXoV9fTgb+4D2EfCIEwZf4VSLz8FAlqUI6cACgkQIEwZf4VS
+Lz/5aw//WiH9GDB02DrCt3fnQpaQjZ772DYOzxJ0DbAKJRxHpzUXRvqwEU9SZh57
+JeG8WvgGRWpCQFWxee9AdDuCY+qOzlIyzHcrObakSQG98lTdUTL0vItHoxBJlem2
+DiQ2nHkFbwrd4Iaii+Xneltw25I/OH3lL4vMGsOSEWRNf4t7DfCPezSgxFZa1DP7
+2K3zJ6IDGnpGBz+WtFKrFYB6tcTPhIldtZNS84LzzoFyw8QM+xIiulpB73D67/Ix
+QL9qV4KkdO9E3T6oiAGaAX5Cq1zXUecsuxbcjmaHYytfQOczTA1EgwEOTntQsz5/
+C3Uiaa3AcoEHsXmxVkiI83mfKt49FJB91z6DJPhQEZIaIz9RgbDjr68B4jfLPkjf
+jDRjpYQhgGVOLOMkNfK8tFD3NDqm3x6PqO0nSjaAQQWj2NZYhUctDcJgescp+AHQ
+INGKwnsQGaBubtSjtU2fCeSRjP6NktFheANumCgRcKQABWMKfIP2+XClYqdXTYon
+NKtsTJ6Si0Nh7hAhQzC039Tlb44hi+QkEWqQZI2VWQW5Wl3ejv+m6xcasR6DmFvi
+G17fvGNNn35K2gwDAOr3IQXG4yto6aches44hlX6mVinlQi1ME66ngjxmkJbN8xt
+mQe5nAeaA5BQYz2++Fb+IHWbn9RVD/KvbfVJSulkn6qh/lNs2sU=
+=Nzel
+-----END PGP SIGNATURE-----

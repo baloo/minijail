@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Mon, 26 Feb 2018 15:11:41 +0000
+MD5Sum:
+ 0c707069081efa1c727a2974d572fa5d               38 Release
+ 401df7aaa13824fe80e2f491e718ccda             1557 main/binary-amd64/Packages
+ dc8dc1a16b814dc85a3f9c45fa3417a1              833 main/binary-amd64/Packages.gpg
+SHA1:
+ 60474269983da4b6dea0307ef9e4291c4366ef93               38 Release
+ 26682991e69b09cf85946a2be7b1ba47cffd19c3             1557 main/binary-amd64/Packages
+ f1f2804477a3c09ef71f451a3d3f64103846014a              833 main/binary-amd64/Packages.gpg
+SHA256:
+ 687463974057150df274b9cf5250ced0f3964893353d5ed5b6db3d68464a7a6b               38 Release
+ e90584c1472184c2847d40da9cdff6fd35d82cfe3e4d63c25008eedde6e385d0             1557 main/binary-amd64/Packages
+ dac9c4eeca2d0d177ee2be590bbe0f45b9ba141a361708c4199d5bc8b147ffb2              833 main/binary-amd64/Packages.gpg
+SHA512:
+ d46a42bb260a127e5a925a1e207c1bb270901ba2693ff4d33a77d09314cf58865f64667e0f1ff9fd293c26bacd4f31189d358a65d588f8f3e9d8dfce00604192               38 Release
+ f29a9af4f33a93ba20ebb018d6e6fd0e54181528ac39adae896f3afb1c3f1762639d043906324cc8b273ff69587a7c130d8db470b579dbae70ea7b01ff2efdb4             1557 main/binary-amd64/Packages
+ f062eba8f8c33fd879e15f1575730229ab94a46ef9426f4b298032b0305ee073308a7af89991e6c488a55cff93327890f400a4e669aa87829b776c297ba79624              833 main/binary-amd64/Packages.gpg
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEqXoV9fTgb+4D2EfCIEwZf4VSLz8FAlqUI64ACgkQIEwZf4VS
+Lz/ZBBAA4g6ybaUunAzDZGj21ZfuqP6HQCZnMe/EiZ/2qNLLdYLxpiWAm2WYfsBQ
+k1Z4hBD/Y2EJX8Jdyjai4RSByCgJbOrJTuRjK19l81y80Np5ddV41CHVP/jg0kyU
+YDiNQo+nCfo0LX8cQBwKgYcqnDyeSpvQU1PGHS1ncu8YA4uTJx/A2Ofxt65nYANG
+5B+mjNgZ8zfPTEQeiTyeAjfNWmW6HCZU/Mw1cF6tM7Q2Q1cpdF6BC1VAK8H347xp
+Ik4uYKvIvjQIR1ROrIgK5yJnv3YYSnL7cuVXP6OX4eNfF1SoUTlHCpkuzANc0Mf6
+jg/1ElIOn6yONfYOX8iaJ+OpP7zbOHEOKGwj8HtLQCg2Wwiz6jhwHSBCzCUjVjyL
+UMjzNfxrzf6eA9JIQvt3RUmUk5Ycbp0s/lrsOwKmvZjI71UJZwvkRxHdn0wkVxpB
+WGvSpRM5UjNkoCtmCPAbpUEinhs111WUW71rrsSM77f0zHgYLYD6VfmXnX6dfk/Y
+/TZrB+CBr7yDgptdh4zu57GPayIyTOsl2b2FQI+FUt3HtdLWPg+jkcZU6CVT9awP
+VNiWKKLHFv/Rnq84vGbGEOgXH2DxIq0Hh3/wf6Wi7zAb7QwMJegH3eJrWlodg8yI
+tmrXgYQeLjzsx0Ntn4xJN0SVam+PrWQRLSLqNR/5phyhX9O0ln8=
+=QWX/
+-----END PGP SIGNATURE-----

@@ -1,0 +1,36 @@
+Package: minijail
+Version: 0.0.0.2016.10.04.184956+713f6fbed8fd14efce499d5d609d24487b2518a4-1
+Architecture: amd64
+Maintainer: Arthur Gautier <baloo@gandi.net>
+Installed-Size: 269
+Depends: libc6 (>= 2.14), libcap2 (>= 1:2.10)
+Filename: jessie/minijail_0.0.0.2016.10.04.184956+713f6fbed8fd14efce499d5d609d24487b2518a4-1_amd64.deb
+Size: 47274
+MD5sum: 545299635876ae02f41c7349d1afdf1a
+SHA1: 66dc186333c7631b02921f175b581ef7221a15cb
+SHA256: 248787412e336fdfbf55d602aecbf9411aea2b694f9b370e46841fa67e100d61
+Section: utils
+Priority: optional
+Homepage: https://android.googlesource.com/platform/external/minijail/
+Description: sandbox a process
+ Runs program inside a sandbox.
+
+Package: minijail-dbgsym
+Source: minijail
+Version: 0.0.0.2016.10.04.184956+713f6fbed8fd14efce499d5d609d24487b2518a4-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Arthur Gautier <baloo@gandi.net>
+Installed-Size: 165
+Depends: minijail (= 0.0.0.2016.10.04.184956+713f6fbed8fd14efce499d5d609d24487b2518a4-1)
+Filename: jessie/minijail-dbgsym_0.0.0.2016.10.04.184956+713f6fbed8fd14efce499d5d609d24487b2518a4-1_amd64.deb
+Size: 115764
+MD5sum: 40c06d3ab277ebe41601d2125db454fe
+SHA1: c0d44e20848d51451343830cbd25aa0ba666d81a
+SHA256: 3b34db72d676084d239efcbe47da4a4c510c548aa5c594edb829294370dfb33f
+Section: debug
+Priority: extra
+Homepage: https://android.googlesource.com/platform/external/minijail/
+Description: Debug symbols for minijail
+Build-Ids: 004dbdd21be3b88aa3fc12166aca89a200ca507c 1ea6ec67662c9a2e164453ffec64f7e5ff365852 adf4bcea4e5d52b69635be62580e68b7fee523f8
+
